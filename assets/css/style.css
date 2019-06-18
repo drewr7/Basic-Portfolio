@@ -1,0 +1,18 @@
+.Header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;  
+    background-color: #ffffff;
+    border-color: #cccccc
+}
+#nameblock {
+    font-size: 20px;
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.menu {
+    background-color: white;
+    color: #666666;
+    padding-left: 30px;
+}
