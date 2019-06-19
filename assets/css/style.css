@@ -1,8 +1,9 @@
-.Header {
+Header {
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 960px;  
     background-color: #ffffff;
-    border-color: #cccccc
+    border-color: #cccccc;
+    margin: auto;
 }
 #nameblock {
     font-size: 20px;
@@ -10,9 +11,54 @@
     color: white;
     text-align: center;
     padding: 20px;
+    width: 150px;
+
 }
 .menu {
     background-color: white;
     color: #666666;
     padding-left: 30px;
+    display: inline-block;
+
+}
+.bodycontent {
+    width: 960px;
+    margin: auto;
+
+}
+.navbar {
+    float: right;
+    display: inline;
+    
+}
+body{
+    background-image: url("../images/background.png");
+    background-size: cover
+}
+hr {
+
+}
+
+h1 {
+    color: #4aaaa5;
+    padding: 20px;
+}
+
+
+}
+
+.bodycontent {
+    background-color: white;
+    border: solid;
+    border-width: 2px;
+    
+}
+
+img {
+    float: left;
+    padding: 5 20 20 20px;
+}
+
+p {
+    line-height: 30px;
 }
