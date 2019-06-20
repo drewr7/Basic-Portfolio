@@ -53,17 +53,9 @@ h1 {
     padding: 20px;
 }
 
-
-}
-
-.bodycontent {
-    background-color: white;
-    border: solid;
-    border-width: 2px;
     
-}
 
-img {
+.profile-image {
     float: left;
     padding: 15 20 0 20;
 }
@@ -102,4 +94,63 @@ p {
     width: 10%;
     padding: 60 0 0 0;
 
+}
+form {
+    padding: 20;
+}
+#contact-name {
+    width: 920px;
+    height: 30px;
+    margin-top: 5;
+    padding: 0 10;
+
+}
+#contact-email {
+    width: 920px;
+    height: 30px;
+    margin-top: 5;
+    padding: 0 10;
+}
+#contact-message {
+    width: 920px;
+    height: 200px;
+    margin-top: 5;
+    resize: vertical;
+    padding: 10px;
+}
+input[type=submit] {
+    background-color: #4aaaa5;
+    padding: 10 20;
+}
+
+
+.column1 {
+    float:left
+}
+.column2 {
+    float: left;
+}
+
+.portfoliobody {
+        width: 960px;
+        margin: auto;
+        background-color: white;
+        border: solid;
+        border-color: #4aaaa5;
+        border-width: 2px;
+        height: 800px;
+}
+.image-container {
+    text-align: center;
+    color: black;
+    width: 250px;
+    height: 175;  
+    display: block;
+    padding: 15px;
+
+
+}
+.image-text {
+    background-color: #4aaaa5;
+    bottom: 10px;
 }
